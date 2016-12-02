@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53B7719C0E014231327F0687F9F845C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		9DC806229A563DBD6D1EB7371E60FF62 /* Pods-WeixinActivitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3873199BA4D7C0534FAC6E3E44698405 /* Pods-WeixinActivitySwift-dummy.m */; };
+		D69081F6E2E04885C774861192D443B0 /* Pods-WeixinActivitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C3D086620FAB97477EE5EBFD0681475 /* Pods-WeixinActivitySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		125F774A5B1A8FE50542C10CE80F24BD /* Pods-WeixinActivitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WeixinActivitySwift.modulemap"; sourceTree = "<group>"; };
+		17568AAAB3ABBA469EBA928DF0D8BE37 /* Pods-WeixinActivitySwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeixinActivitySwift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		18D008682A1298B1154F17B173DB8341 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		19CCCCC7C9A47CF2C230124BA0F68878 /* Pods-WeixinActivitySwift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeixinActivitySwift-frameworks.sh"; sourceTree = "<group>"; };
+		3873199BA4D7C0534FAC6E3E44698405 /* Pods-WeixinActivitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeixinActivitySwift-dummy.m"; sourceTree = "<group>"; };
+		3E4B1498205572160F7C68965DC280A4 /* Pods_WeixinActivitySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeixinActivitySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA349E601F942A62D2CEE4A4B3061D6 /* Pods-WeixinActivitySwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeixinActivitySwift-acknowledgements.plist"; sourceTree = "<group>"; };
+		66AE067F7EE246CD153CC4F24858F9B4 /* Pods-WeixinActivitySwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeixinActivitySwift.debug.xcconfig"; sourceTree = "<group>"; };
+		6A68200DDB7FA95388B11D9804911AEA /* Pods-WeixinActivitySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeixinActivitySwift.release.xcconfig"; sourceTree = "<group>"; };
+		6C3D086620FAB97477EE5EBFD0681475 /* Pods-WeixinActivitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WeixinActivitySwift-umbrella.h"; sourceTree = "<group>"; };
+		70EEA9BE9CBF31FE96772CEDD9953AAD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B6CC2780CFEA6D3C8CB7C7ABC27A1AA /* Pods-WeixinActivitySwift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeixinActivitySwift-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D2658797022B2084C6FEF5C389B85E33 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		EAB27947256FF03BE7B81291CF15B6EF /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		F7BAD4F82FADAA959C5B969A075B9ABE /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C71488E223D1A8520454C85DDCA2E0CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B7719C0E014231327F0687F9F845C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4DDF5B57E2AC6FCD60D842417E6EDE51 /* Pods-WeixinActivitySwift */ = {
+			isa = PBXGroup;
+			children = (
+				70EEA9BE9CBF31FE96772CEDD9953AAD /* Info.plist */,
+				125F774A5B1A8FE50542C10CE80F24BD /* Pods-WeixinActivitySwift.modulemap */,
+				17568AAAB3ABBA469EBA928DF0D8BE37 /* Pods-WeixinActivitySwift-acknowledgements.markdown */,
+				5CA349E601F942A62D2CEE4A4B3061D6 /* Pods-WeixinActivitySwift-acknowledgements.plist */,
+				3873199BA4D7C0534FAC6E3E44698405 /* Pods-WeixinActivitySwift-dummy.m */,
+				19CCCCC7C9A47CF2C230124BA0F68878 /* Pods-WeixinActivitySwift-frameworks.sh */,
+				7B6CC2780CFEA6D3C8CB7C7ABC27A1AA /* Pods-WeixinActivitySwift-resources.sh */,
+				6C3D086620FAB97477EE5EBFD0681475 /* Pods-WeixinActivitySwift-umbrella.h */,
+				66AE067F7EE246CD153CC4F24858F9B4 /* Pods-WeixinActivitySwift.debug.xcconfig */,
+				6A68200DDB7FA95388B11D9804911AEA /* Pods-WeixinActivitySwift.release.xcconfig */,
+			);
+			name = "Pods-WeixinActivitySwift";
+			path = "Target Support Files/Pods-WeixinActivitySwift";
+			sourceTree = "<group>";
+		};
+		6D1752D06FF89D59610641503D451BC7 /* libWeChatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				18D008682A1298B1154F17B173DB8341 /* WechatAuthSDK.h */,
+				F7BAD4F82FADAA959C5B969A075B9ABE /* WXApi.h */,
+				EAB27947256FF03BE7B81291CF15B6EF /* WXApiObject.h */,
+				C6297A99DE6FB317C0C48C27242173A2 /* Frameworks */,
+			);
+			path = libWeChatSDK;
+			sourceTree = "<group>";
+		};
+		72491F84C1CDCF3FB1F5EBF22C525818 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E4B1498205572160F7C68965DC280A4 /* Pods_WeixinActivitySwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				ED5AC01D32E0777108E3B2BFC0BD8C2C /* Pods */,
+				72491F84C1CDCF3FB1F5EBF22C525818 /* Products */,
+				EDEE9B4FB8813D52069361EA1386ADBE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6297A99DE6FB317C0C48C27242173A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2658797022B2084C6FEF5C389B85E33 /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED5AC01D32E0777108E3B2BFC0BD8C2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D1752D06FF89D59610641503D451BC7 /* libWeChatSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EDEE9B4FB8813D52069361EA1386ADBE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DDF5B57E2AC6FCD60D842417E6EDE51 /* Pods-WeixinActivitySwift */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2C732E46AE4E005D931051A56E2AE6B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69081F6E2E04885C774861192D443B0 /* Pods-WeixinActivitySwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		405CEABB3EE3B118512905AD03B47F4A /* Pods-WeixinActivitySwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0509C54E1EA3B0B9A178342A0D5F9CE6 /* Build configuration list for PBXNativeTarget "Pods-WeixinActivitySwift" */;
+			buildPhases = (
+				6AB739B605C5D04BE9717309CA65A975 /* Sources */,
+				C71488E223D1A8520454C85DDCA2E0CB /* Frameworks */,
+				2C732E46AE4E005D931051A56E2AE6B5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WeixinActivitySwift";
+			productName = "Pods-WeixinActivitySwift";
+			productReference = 3E4B1498205572160F7C68965DC280A4 /* Pods_WeixinActivitySwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 72491F84C1CDCF3FB1F5EBF22C525818 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				405CEABB3EE3B118512905AD03B47F4A /* Pods-WeixinActivitySwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AB739B605C5D04BE9717309CA65A975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC806229A563DBD6D1EB7371E60FF62 /* Pods-WeixinActivitySwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7022DEEF2CEF2B606276B0B09F75FED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A68200DDB7FA95388B11D9804911AEA /* Pods-WeixinActivitySwift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WeixinActivitySwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeixinActivitySwift/Pods-WeixinActivitySwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WeixinActivitySwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F8D38D1F5913D06E8E01223060EE139C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66AE067F7EE246CD153CC4F24858F9B4 /* Pods-WeixinActivitySwift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WeixinActivitySwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeixinActivitySwift/Pods-WeixinActivitySwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WeixinActivitySwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0509C54E1EA3B0B9A178342A0D5F9CE6 /* Build configuration list for PBXNativeTarget "Pods-WeixinActivitySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D38D1F5913D06E8E01223060EE139C /* Debug */,
+				7022DEEF2CEF2B606276B0B09F75FED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
